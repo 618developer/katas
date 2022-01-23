@@ -3,6 +3,9 @@ package com.developer618;
 public class ReplaceNth {
 
     public static String replaceNth(String text, int n, char oldValue, char newValue) {
+        if(n < 1) {
+            return text;
+        }
         int occurrences = 0;
         StringBuilder updatedText = new StringBuilder();
         for (char charInString :

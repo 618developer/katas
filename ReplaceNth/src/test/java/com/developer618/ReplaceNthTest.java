@@ -19,7 +19,7 @@ public class ReplaceNthTest {
 
         // Act
         // Assert
-        assertThat(ReplaceNth.replaceNth(originalText, 0, 'x', 'y'), is(equalTo(originalText)));
+        assertThat(ReplaceNth.replaceNth(originalText, 0, 'a', 'o'), is(equalTo(originalText)));
     }
 
     @DisplayName("If n is negative, original value returned")
@@ -28,7 +28,7 @@ public class ReplaceNthTest {
         // Arrange
         // Act
         // Assert
-        assertThat(ReplaceNth.replaceNth(originalText, -1, 'x', 'y'), is(equalTo(originalText)));
+        assertThat(ReplaceNth.replaceNth(originalText, -1, 'a', 'o'), is(equalTo(originalText)));
     }
 
     @DisplayName("N being 1 will replace every occurence.")
