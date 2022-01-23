@@ -1,2 +1,4 @@
 rootProject.name = 'katas'
 include 'fizzbuzz'
+include 'ReplaceNth'
+
